@@ -12,11 +12,11 @@ config_s2i
 
 echo "##################### Start customization ##########################"
 cp -Rf /tmp/src/*.html ./
-Date = `date "+%b %d, %Y @ %H:%M %p"`
+DATE = 'date "+%b %d, %Y @ %H:%M %p"'
 
 echo " ------- Processing -------"
-echo " Process the file on $Date ">>info.html
-echo "the version is $HTTPD_VERSION " >>info.html
+echo " Process the file on $DATE ">>./info.html
+echo "the version is $HTTPD_VERSION " >>./info.html
 
 
 ######## CUSTOMIZATION ENDS HERE ############
