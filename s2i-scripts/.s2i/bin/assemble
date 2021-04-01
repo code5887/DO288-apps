@@ -12,7 +12,7 @@ config_s2i
 
 echo "##################### Start customization ##########################"
 cp -Rf /tmp/src/*.html ./
-DATE = 'date "+%b %d, %Y @ %H:%M %p"'
+DATE='date "+%b %d, %Y @ %H:%M %p"'
 
 echo " ------- Processing -------"
 echo " Process the file on $DATE ">>./info.html
